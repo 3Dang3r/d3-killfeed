@@ -15,6 +15,12 @@ Displays player kills, suicides, and supports configurable screen positions! �
 
 ---
 
+
+## 🖥️ Previews
+
+ - [Killfeed Notification](https://imgur.com/a/UKjZUve)
+
+
 ## ⚙️ Configuration
 
 Inside `client.lua`, modify this line to set kill feed position:
