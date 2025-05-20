@@ -27,13 +27,13 @@ local Config = {
 
 
 ## 🚀 Installation
-Download or clone this repository.
+ - Download or clone this repository.
 
-Add the folder to your FiveM resources/ directory.
+ - Add the folder to your FiveM resources/ directory.
 
-Ensure the resource in your server.cfg:
+ - Ensure the resource in your server.cfg:
 
-ensure `d3-killfeed`
+ - ensure `d3-killfeed`
 
 
 
