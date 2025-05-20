@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+}
+
+#kill-feed {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999;
+}
+
+.top-left { top: 20px; left: 20px; }
+.top-right { top: 20px; right: 20px; }
+.bottom-left { bottom: 20px; left: 20px; }
+.bottom-right { bottom: 20px; right: 20px; }
+.center-left { top: 50%; left: 20px; transform: translateY(-50%); }
+.center-right { top: 50%; right: 20px; transform: translateY(-50%); }
+
+.kill-box {
+    background: rgba(25, 25, 25, 0.85);
+    border-radius: 12px;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    animation: fadein 0.3s ease;
+}
+
+.kill-box span {
+    margin: 0 8px;
+}
+
+.killer {
+    color: #f54242;
+    font-weight: bold;
+}
+
+.victim {
+    color: #42a5f5;
+    font-weight: bold;
+}
+
+@keyframes fadein {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
